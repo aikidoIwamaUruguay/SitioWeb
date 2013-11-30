@@ -1,0 +1,740 @@
+body{
+    font-family: Lucida Grande, Lucida Sans Unicode, Helvetica, Arial, Verdana, sans-serif;
+    
+    height: 100%;
+	margin: 0;
+	padding: 0; //3px 0 0 0;
+	
+		
+	//background: url(../img/iwama.jpg) center top no-repeat;
+	//background-size: 100%;
+    //background-attachment:fixed;
+	//background-position:center;
+	
+	//text-align:center;
+	//padding:0 0 10px 0;
+	//color:#333;
+	//font-size:12px;
+	//font-family: Lucida Grande,verdana,'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','ＭＳ Ｐゴシック', sans-serif;
+	//background: #D8D8D8 url(img/body_back.gif) center top repeat-y;
+	//background-image: url('../img/iwama.jpg');
+    //background-repeat: no-repeat;
+    //background-attachment: fixed;
+	//background: #D8D8D8;
+	//background-image:url('smiley.gif');
+	//background-repeat:no-repeat;
+	
+}
+
+
+img.bg{
+	/* Rellenamos el fondo */
+    min-height: 100%;
+    min-width: 800px;
+    
+    /* Escalamiento proporcional */
+    width: 100%;
+    height: auto;
+    
+    /* Posicionamiento */
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index:-10;
+}
+ 
+@media screen and (max-width: 800px) { /* Hacemos la b�squeda y si coincide modificamos las propiedades de la imagen */
+	img.bg {
+		left: 50%;
+        margin-left: -400px;   /* Agregamos un margen negativo que represente el 50% */
+    }
+}
+
+<!--
+[if IE 6]>
+<style type="text/css">
+	html { overflow-y: hidden; }
+	body { overflow-y: auto; }
+	img#bg { position:absolute; z-index:-1; }
+	#lienzo { position:static; }
+</style>
+<![endif]
+-->
+
+
+a { color: #08c; }
+a:link, a:visited, a:active { text-decoration: none; }
+/* a:hover { text-decoration: underline; } */
+a.block { display: block; cursor: pointer; }
+a.block span,
+a.block em { color:#08c; cursor: pointer; }
+a.block:hover { text-decoration: none; }
+a.block:hover span,
+a.block:hover em { color: #08c; text-decoration: underline; }
+
+h1,h2,h3,h4,h5,h6,strong { color:#000; }
+h1,h2,h3,h4 { font-weight: bold; }
+h2,h3,h4 { line-height: 18px; }
+h1,h2 { margin-bottom: 18px; }
+h1 { font-size: 24px; line-height: 36px; }
+h2 { font-size: 20px; }
+h3 { font-size: 1em; }
+h4 { font-size: 10px; }
+h5,h6 { margin-bottom: 2px; }
+
+.texto{
+	padding: 0 10px 0 10px;
+}
+
+/* ******************************	Top bar		****************************** */
+
+#top_bar {
+	width: 100%;
+    height: 28px;
+    background: url(../img/fondo-top2.png) repeat-x;    
+    margin: 0 0 1px 0;
+    padding: 0;
+}
+
+#top_bar_m {
+	margin: 0 auto;
+	width: 842px;
+}
+
+#face {
+	float: right;
+	//margin-right: 30px;
+	//border: 1px red solid;
+}
+
+/* ******************************	Lienzo		****************************** */
+
+#lienzo {
+	margin: 0 auto;
+	width: 842px;
+	z-index: 1;
+	
+	//position:relative;
+	//padding:0 10px;
+	//border: 1px solid red;		
+}
+
+/* ******************************	Cabezal		****************************** */
+
+#cabezal{
+	height: 115px;
+	width: 842px;
+	padding: 0;
+	margin:0 auto;	
+	
+	//border: 1px solid black;
+	//text-align:right; //left;
+	//opacity:0.5;
+	//filter:alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/* ******************************	Contenido	****************************** */
+
+#contenido {
+	margin: 5px 0 0 0;
+	zoom:100%;/*for IE*/
+		
+	//border-top:1px solid #666;//background-color:#fff;
+	//padding:0 0 10px 0;	
+	//background: url(img/content_back.gif) center top repeat-y;
+}
+
+/* ******************************	Men�		****************************** */
+
+#menu{
+	float: left;
+	padding: 0px 0 0 0;
+	width: 150px;
+	
+	//background-color: #ffffff;
+	//border: 1px solid red;
+}
+
+ul.miNav {
+	list-style-type:none;
+	padding: 0;
+	margin:0px;
+	width: 140px;
+}
+
+ul.miNav  li{
+	padding-bottom: 5px;
+}
+
+ul.miNav  li a{
+	background: url(../img/dropdown-bg-1.jpg) repeat-x left top;
+	display: block;
+	padding: 16px 0px 0px 10px;	
+	height: 32px;
+	color: #E6E6E6; //#eeeeec;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration:none;
+	
+	-webkit-border-radius: 4px;
+	-khtml-border-radius:4px; 
+	-ms-border-radius:4px; 
+	-o-border-radius:4px; 
+	-moz-border-radius:4px;
+	 border-radius:4px;
+}
+
+ul.miNav li a:hover {
+	background: url(../img/dropdown-bg-hover.gif) repeat-x left top;
+	-webkit-border-radius: 4px;
+	color:#999; //#D6D6D6;
+}
+
+ul.miNav li.selOn a{
+	color: #729fcf; //#0431B4; //#0B3861;
+}
+
+/* ******************************	Datos	****************************** */
+
+#datos{
+	padding: 0 0 5px 0;
+	float: right;
+	width: 692px;
+	background: url(../img/fondoContenido85.png) repeat-y left top;
+	
+	-webkit-border-radius: 6px;
+	-khtml-border-radius:6px; 
+	-ms-border-radius:6px; 
+	-o-border-radius:6px; 
+	-moz-border-radius:6px;
+	 border-radius:6px;
+	
+	//background-color: #ffffff;
+	//opacity: 0.85;
+	//filter:alpha(opacity=75); /* For IE8 and earlier */
+	//-moz-opacity: 0.75;
+	//border-bottom:1px dotted #666;	
+	//border: 1px solid red;
+}
+
+/* ******************************	Inicio	****************************** */
+
+.inicio {
+	padding: 0;
+	border-bottom:1px dashed #666;	
+	//border: 1px solid green;
+}
+
+.inicio .foto {
+	padding: 10px 0 20px 0;
+	text-align: center;
+	//margin-top: 10px;
+}
+
+/* ******************************	Instructores	****************************** */
+
+.info-instructores {
+	padding: 0 10px 20px 40px;
+	border-bottom:1px dashed #666;
+	height: 210px;
+	
+	//border: 1px solid green;
+	//float: left;
+}
+
+.info-instructores-s {
+	padding: 0 10px 20px 40px;
+	border-bottom:1px dashed #666;
+	height: 50px;
+	
+	//border: 1px solid green;
+	//float: left;
+}
+
+
+.retrato {
+	float: right; 
+	margin: 10px 40px 10px 10px;
+	
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px; 
+	-ms-border-radius: 4px; 
+	-o-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/* ******************************	Info	****************************** */
+
+.info {
+	padding: 0 10px 20px 10px;
+	border-bottom:1px dashed #666;
+}
+
+.indice{
+	float: right;
+	color: #08c; 
+	padding-top: 15px;"	
+}
+
+.infoCabezal {
+	//border:1px solid blue;
+	height: 200px;
+}
+
+.infoDatos {
+	//width: 300px;
+	height: 100%;
+	//border:1px solid red;
+	float: left;
+	
+}
+
+.infoInstructores {
+	//width: 350px;
+	height: 100%;
+	//padding-top: 10px;
+	//border:1px solid green;
+	float: right;
+	text-align: right;
+}
+
+.info table{
+	margin: 20px 0 0 0;
+	border: 1px solid #cccccc;
+	background: #cccccc;
+	border-collapse:separate;
+	border-spacing: 1px;	
+}
+
+.info table tr{
+	background: #ffffff;
+}
+
+.info table tr th{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	//width: 100px;
+}
+
+.info table tr td{
+	padding: 2px;
+	font-size: 12px;
+}
+
+.info .mapa {
+	margin-top: 20px;
+}
+
+/* ******************************	Galeria		****************************** */
+
+#fotos {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	z-index: 2;
+	//border: 1px solid red;
+}
+
+.cerrar{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	
+	bottom: 0;
+	filter:alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	
+	cursor: pointer;
+	
+	display: block;	
+	background: url(../img/close44-100-1.jpg);
+	width: 100px;
+	height: 100px;
+	
+	transition: all 0.05s linear;
+    -webkit-transition: all 0.05s linear;
+    -moz-transition: all 0.05s linear;
+}
+
+.cerrar:active{
+	top: 52px;
+	//right: 51px; 
+}
+
+.cerrar:hover{
+	filter:alpha(opacity=150);
+	-moz-opacity: 1.5;
+	opacity: 1.5;
+}
+
+#album {
+	display: block;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+	z-index: 3;
+	background: black;
+	
+	//position: fixed;
+	//top: 100px;
+	//left: 100px;
+	//border: 1px solid red;
+}
+
+#video {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	z-index: 4;
+	background: black;
+	width: 640px;
+	height: 480px;
+	
+	//position: fixed;
+	//top: 100px;
+	//left: 100px;
+	//border: 1px solid red;
+}
+
+/* ******************************	Contacto	****************************** */
+
+.infoContacto {
+	padding: 0 10px 20px 25px;
+	border-bottom:1px dashed #666;
+}
+
+
+#contacto  {
+	//margin: 0 auto;
+	margin-bottom: 10px;
+	width: 490px;
+	height: 430px;
+	background: #ffffff;
+	padding: 10px 10px 0 10px;
+	
+	-webkit-border-radius: 4px;
+	-khtml-border-radius:4px; 
+	-ms-border-radius:4px; 
+	-o-border-radius:4px; 
+	-moz-border-radius:4px;
+	 border-radius:4px;
+	
+	//border: 1px solid green;
+}
+
+#inputText  {
+	width: 400px;
+	margin: 5px 0 5px 0;
+}
+
+#inputTextArea  {
+	width: 400px;
+	height: 200px;
+	margin: 5px 0 10px 0;
+	resize: none;
+}
+
+#botones  {
+	width: 100px;
+	height: 35px;
+	float: right;
+}
+
+
+.info table{
+	margin: 20px 0 0 0;
+	border: 1px solid #cccccc;
+	background: #cccccc;
+	border-collapse:separate;
+	border-spacing: 1px;	
+}
+
+.info table tr{
+	background: #ffffff;
+}
+
+.info table tr th{
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	//width: 100px;
+}
+
+.info table tr td{
+	padding: 2px;
+	font-size: 12px;
+}
+
+/* ******************************	Contador		****************************** */
+
+.infoContador {
+	padding: 0 10px 20px 10px;
+	border-bottom:1px dashed #666;
+}
+
+.infoContador table{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #7C7742;		//cccccc;
+	background: #7C7742;		//cccccc;
+	border-collapse:separate;
+	border-spacing: 1px;	
+	
+	-webkit-border-radius: 4px;
+	-khtml-border-radius:4px; 
+	-ms-border-radius:4px; 
+	-o-border-radius:4px; 
+	-moz-border-radius:4px;
+	 border-radius:4px;
+}
+
+.infoContador table tr{
+	height: 25px;
+}
+
+.infoContador table tr.par{
+	background: #F4D190;
+}
+
+.infoContador table tr.impar{
+	background: #DBBD87;
+}
+
+.infoContador table tr th{
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	//width: 100px;
+	padding: 0 3px 0 7px;
+}
+
+.infoContador table tr td{
+	padding: 2px;
+	font-size: 12px;
+}
+
+.infoContador .mapa {
+	margin-top: 20px;
+}
+
+/* ******************************	Seminario		****************************** */
+#seminario{
+	//display: none;
+	position: fixed;
+	
+	left: 50%; 
+	top: 2px;
+	
+	width: 80%;
+	height: 95%;
+	
+	margin-left: -40%;
+	//margin-top: -25%;
+	background: #4C7DA8;
+	
+	//opacity:0.98;
+	//filter:alpha(opacity=98); /* For IE8 and earlier */
+	
+	-webkit-border-radius: 8px;
+	-khtml-border-radius:8px; 
+	-ms-border-radius:8px; 
+	-o-border-radius:8px; 
+	-moz-border-radius:8px;
+	 border-radius:8px;
+}
+
+.close{
+	float: right;
+	padding: 0px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	//color: #42485D;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.tituloSeminario{
+	text-align: center;	
+}
+
+.tit1{
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: "Times New Roman";
+}
+
+.tit11{
+	font-size: 36px;
+	font-weight: bold;
+	color: #18192E;
+	font-family: "Times New Roman";
+}
+
+.tit2{
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: "Times New Roman"; 
+}
+
+.tit3{
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: "Times New Roman"; 
+}
+
+.tit33{
+	font-size: 14px;
+	font-weight: bold;
+	color: #18192E;
+	font-family: "Times New Roman"; 
+}
+
+#contenidoSem{
+	width: 95%;
+	//height: 400px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+#sabado{
+	width: 49%;
+	height: 420px;
+	float: left;
+	color: #ffffff;
+}
+
+#domingo{
+	width: 49%;
+	height: 420px;
+	float: right;
+	color: #ffffff;
+}
+
+#mapSabado{
+	float: left;
+}
+
+#mapDomingo{
+	float: right;
+}
+/* ******************************	Glosario	************************** */
+
+.infoGlosario {
+	padding: 0 20px 20px 25px;
+	border-bottom:1px dashed #666;
+}
+
+.glosario {
+	//border: 1px solid red;
+}
+
+.glosario table{
+	margin: 10px 0 0 0;
+	width: 100%;
+	border: 1px solid #cccccc;
+	background: #cccccc;
+	border-collapse:separate;
+	border-spacing: 1px;	
+	
+	-webkit-border-radius: 4px;
+	-khtml-border-radius:4px; 
+	-ms-border-radius:4px; 
+	-o-border-radius:4px; 
+	-moz-border-radius:4px;
+	 -webkit-border-radius:4px; 
+	 border-radius:4px;
+}
+
+.glosario table tr{
+	background: #ffffff;
+}
+
+.glosario table tr  th  a{
+	color: #08c;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.glosario table tr  th  img{
+	float: right;
+	//padding-right: 20px;
+	padding: 8px 20px 0 0;
+}
+
+.glosario table tr th{
+	text-align: center;
+	color: #08c;
+	font-weight: bold;
+	font-size: 20px;
+	background: #cccccc;
+	border-bottom: 1px solid white;
+	line-height: 30px;
+	padding-left: 2px;
+}
+
+.glosario table tr th .sub{
+	font-size: 16px;
+	float: left;
+}
+
+.glosario table tr td{
+	padding: 2px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.glosario table tr td.palabra{
+	font-weight: bold;
+	font-size: 15px;
+	//letter-spacing: 1px;
+	background: #f5f5f5;
+}
+
+.glosario table tr td.num{
+	text-align: center;
+	background: #f5f5f5;
+}
+
+.lista{
+	list-style-type: square;
+}
+
+.lista1{
+	//list-style-type: square;
+	//list-style-type: circle; 
+	list-style-type: disc;
+	
+}
+
+/* ******************************	Pie		****************************** */
+
+#pie{
+	clear: both;
+	//border-top: 1px solid #ccc;
+	text-align: center;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+
+
