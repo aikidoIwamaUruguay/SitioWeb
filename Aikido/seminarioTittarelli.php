@@ -10,7 +10,7 @@
 				<span class="tit2">S&Aacute;BADO 14 DE SEPTIEMBRE</span><br>
 				<span class="tit2">Acevedo D&iacute;az 1084 (MontevideoAikido)</span><br><br>
 				<div id="mapSabado">
-					<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fe58aada62e7d77&amp;ie=UTF8&amp;t=m&amp;ll=-34.908088,-56.166959&amp;spn=0.005279,0.006437&amp;z=16&amp;output=embed"></iframe><br>
+					<iframe width="300" height="300" src="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fe58aada62e7d77&amp;ie=UTF8&amp;t=m&amp;ll=-34.908088,-56.166959&amp;spn=0.005279,0.006437&amp;z=16&amp;output=embed"></iframe><br>
 					<small>Ver <a href="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fe58aada62e7d77&amp;ie=UTF8&amp;t=m&amp;ll=-34.908088,-56.166959&amp;spn=0.005279,0.006437&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left" target="blank">Montevideo Aikido</a> en un mapa m&aacute;s grande</small>
 				</div>
 				<span class="tit3">
@@ -35,7 +35,7 @@
 				<span class="tit2">DOMINGO 15 DE SEPTIEMBRE</span><br>
 				<span class="tit2">Camacu&aacute; 623 (Club Hebraica)</span><br><br>
 				<div id="mapDomingo">
-					<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fec68ddd249e96f&amp;ie=UTF8&amp;t=m&amp;ll=-34.909478,-56.201034&amp;spn=0.005279,0.006437&amp;z=16&amp;output=embed"></iframe><br>
+					<iframe width="300" height="300" src="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fec68ddd249e96f&amp;ie=UTF8&amp;t=m&amp;ll=-34.909478,-56.201034&amp;spn=0.005279,0.006437&amp;z=16&amp;output=embed"></iframe><br>
 					<small>Ver <a href="https://www.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e5fec68ddd249e96f&amp;ie=UTF8&amp;t=m&amp;ll=-34.909478,-56.201034&amp;spn=0.005279,0.006437&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left" target="blank">Club Hebraica</a> en un mapa m&aacute;s grande</small>
 				</div>
 				<span class="tit3">
