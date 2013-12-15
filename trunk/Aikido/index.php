@@ -9,7 +9,7 @@ include("contador.php");
 		
 		<title>Shin-shin aikishurenkai Uruguay</title>
 
-		<link href="css/estilo.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="css/estilo.css?t=02-12-2013" media="screen" rel="stylesheet" type="text/css" />
 		<link href="css/menuGlosario.css" media="screen" rel="stylesheet" type="text/css" />
 
 		<script type="text/javascript" language="JavaScript" src="js/script.js"></script>
@@ -49,7 +49,7 @@ $selOn = "class='selOn'";
 						<li <?php echo ($page == "hitohira")   ? $selOn : "" ?>><a href="index.php?pag=hitohira">Hitohira Saito</a></li>
 						<li <?php echo ($page == "instruct")   ? $selOn : "" ?>><a href="index.php?pag=instruct">Instructores</a></li>
 						<li <?php echo ($page == "filosofia")  ? $selOn : "" ?>><a href="index.php?pag=filosofia">Filosof&iacute;a</a></li>
-						<li <?php echo ($page == "galeria")    ? $selOn : "" ?>><a href="index.php?pag=galeria">Galer&iacute;a</a></li>
+						<li <?php echo ($page == "galeria")    ? $selOn : "" ?>><a href="index.php?pag=galeria">Galer&iacute;a</a></li>	 <!-- <span class="news">Novedades</span>  -->
 						<li <?php echo ($page == "info")       ? $selOn : "" ?>><a href="index.php?pag=info">Informaci&oacute;n</a></li>
 						<li <?php echo ($page == "contacto")   ? $selOn : "" ?>><a href="index.php?pag=contacto">Contacto</a></li>
 					</ul>

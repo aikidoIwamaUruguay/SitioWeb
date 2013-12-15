@@ -185,7 +185,7 @@
 	</table>
 	
 	<div class="mapa">					
-		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e109414e3b41017f5&amp;ie=UTF8&amp;ll=-34.886934,-56.154363&amp;spn=0,0&amp;t=m&amp;output=embed"></iframe>
+		<iframe width="425" height="350" src="https://maps.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e109414e3b41017f5&amp;ie=UTF8&amp;ll=-34.886934,-56.154363&amp;spn=0,0&amp;t=m&amp;output=embed"></iframe>
 		<br/>
 		<small>Ver <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e109414e3b41017f5&amp;ie=UTF8&amp;ll=-34.886934,-56.154363&amp;spn=0,0&amp;t=m&amp;source=embed" style="color:#0000FF;text-align:left">Aikido Uruguay Dojo</a> en un mapa m&aacute;s grande</small>
 	</div>

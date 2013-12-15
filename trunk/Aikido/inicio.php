@@ -15,15 +15,22 @@
 <!-- 		<img src="img/inicio/bukiWazaAgo13.jpg" border="0"/> -->
 <!-- 	</div> -->
 <!-- </div> -->
+
 <div class="inicio">
 	<div class="foto">
-		<a onclick="cerrarDivSeminario('')"><img src="img/inicio/seminarioSanPablo.jpg" style="cursor: pointer;"/></a>
+		<img src="img/inicio/brindis2013.jpg"/>
 	</div>
 </div>
 
 <div class="inicio">
 	<div class="foto">
-		<a onclick="cerrarDivSeminario('')"><img src="img/inicio/seminarioChile.jpg" style="cursor: pointer;"/></a>
+		<img src="img/inicio/seminarioSanPablo.jpg"/>
+	</div>
+</div>
+
+<div class="inicio">
+	<div class="foto">
+		<img src="img/inicio/seminarioChile.jpg"/>
 	</div>
 </div>
 <div class="inicio">
