@@ -110,7 +110,7 @@ function desplegarTotalAnio($anioDes, $indice){
 		echo "		<th>".$infoDes[1]."</th>";
 		echo "	</tr>";
 
-		fclose($fpAnt);
+		fclose($fpDes);
 	}else{
 		return;
 	}
