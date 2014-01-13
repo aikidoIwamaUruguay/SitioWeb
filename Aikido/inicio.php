@@ -21,6 +21,11 @@
 <!-- 		<img src="img/inicio/brindis2013-2.jpg"/> -->
 <!-- 	</div> -->
 <!-- </div> -->
+<div class="inicio">
+	<div class="foto">
+		<img src="img/inicio/keikoVramian.jpg"/>
+	</div>
+</div>
 
 <div class="inicio">
 	<div class="foto">
