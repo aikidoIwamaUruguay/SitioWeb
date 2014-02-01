@@ -96,32 +96,32 @@
 			<th>Sab</th>
 			<th>Dom</th>
 		</tr>
-		<tr>
-			<td>De ma&ntilde;ana</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>8:30 - 9:30</td>
-			<td>&nbsp;</td>
-		</tr>
+<!-- 		<tr> -->
+<!-- 			<td>De ma&ntilde;ana</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 		</tr> -->
 		<tr>
 			<td>De tarde</td>
-			<td>&nbsp;</td>
 			<td>20:00 - 21:30</td>
 			<td>&nbsp;</td>
 			<td>20:00 - 21:30</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
 		<tr>
 			<td>Ni&ntilde;os de 6 a 17 a&ntilde;os</td>
-			<td>&nbsp;</td>
 			<td>20:00 - 21:30</td>
 			<td>&nbsp;</td>
 			<td>20:00 - 21:30</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>

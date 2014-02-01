@@ -42,6 +42,10 @@ $selOn = "class='selOn'";
  
 			<div id="contenido">
 				<div id="menu">
+					<div id="faceMenu">
+						<a href="http://www.facebook.com/aikishuren.dojomontevideo" target="_blank"><img src='img/menu/facebook.png' border="0"></a>
+					</div>
+					
 					<ul class="miNav">
 						<li <?php echo ($page == "inicio")     ? $selOn : "" ?>><a href="index.php?pag=inicio">Inicio</a></li>
 						<li <?php echo ($page == "osensei")    ? $selOn : "" ?>><a href="index.php?pag=osensei">O Sensei</a></li>
