@@ -23,13 +23,13 @@ include("contador.php");
 				 //include("seminarioTittarelli.php"); 
 			?>
 		
-		<div id='top_bar'>
-			<div id='top_bar_m'>
-				<div id="face">
-					<a href="http://www.facebook.com/aikishuren.dojomontevideo" target="_blank"><img src='img/face.png' border="0"></a>
-				</div>
-			</div>	
-		</div>		
+<!-- 		<div id='top_bar'> -->
+<!-- 			<div id='top_bar_m'> -->
+<!-- 				<div id="face"> -->
+<!-- 					<a href="http://www.facebook.com/aikishuren.dojomontevideo" target="_blank"><img src='img/face.png' border="0"></a> -->
+<!-- 				</div> -->
+<!-- 			</div>	 -->
+<!-- 		</div>		 -->
 
 <?php
 $page = ($_GET["pag"] != null) ? $_GET["pag"] : null;  
