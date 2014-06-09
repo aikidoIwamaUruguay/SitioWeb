@@ -27,6 +27,13 @@
 <!-- 	</div> -->
 <!-- </div> -->
 
+
+<div class="inicio">
+	<div class="foto">
+		<a href="index.php?pag=info"><img src="img/inicio/aniversario.jpg" style="width: 300px" /></a>
+	</div>
+</div>
+
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento.png"/></a>
