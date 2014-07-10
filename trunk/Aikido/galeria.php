@@ -22,10 +22,12 @@
 <h2>Morihiro Saito</h2>
 <ul>
 	<li><a href="#" onClick="verFotos('ken7')">7 ken suburi</a></li>
+	<li><a href="#" onClick="verFotos('kumiTachi123')">1-2-3 Kumi Tachi</a></li>
 	<li><a href="#" onClick="verFotos('jo20')">20 Jo suburi</a></li>
 	<li><a href="#" onClick="verFotos('cata31')">31 Jo Kata</a></li>
 	<li><a href="#" onClick="verFotos('cata13')">13 Jo Kata</a></li>
-	<li><a href="#" onClick="verFotos('kumiTachi123')">1-2-3 Kumi Tachi</a></li>	
+	<li><a href="#" onClick="verFotos('kumiJo1-5')">1-5 Kumi Jo</a></li>
+	<li><a href="#" onClick="verFotos('kumiJo6-10')">6-10 Kumi Jo</a></li>
 </ul>
 
 

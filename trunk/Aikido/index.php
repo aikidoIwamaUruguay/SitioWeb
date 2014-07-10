@@ -55,6 +55,7 @@ $selOn = "class='selOn'";
 						<li <?php echo ($page == "filosofia")  ? $selOn : "" ?>><a href="index.php?pag=filosofia">Filosof&iacute;a</a></li>
 						<li <?php echo ($page == "galeria")    ? $selOn : "" ?>><a href="index.php?pag=galeria">Galer&iacute;a</a></li>	 <!-- <span class="news">Novedades</span>  -->
 						<li <?php echo ($page == "info")       ? $selOn : "" ?>><a href="index.php?pag=info">Informaci&oacute;n</a></li>
+						<li <?php echo ($page == "glosario")   ? $selOn : "" ?>><a href="index.php?pag=glosario">Glosario</a></li>
 						<li <?php echo ($page == "contacto")   ? $selOn : "" ?>><a href="index.php?pag=contacto">Contacto</a></li>
 					</ul>
 				</div>

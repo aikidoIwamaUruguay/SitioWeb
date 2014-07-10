@@ -27,8 +27,11 @@ switch ($q){
 							break;
 	case "kumiTachi123":	$response = '<iframe id="video" src="http://www.youtube.com/embed/51xsumatrJw?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>';
 							break;
+	case "kumiJo1-5":		$response = '<iframe id="video" src="http://www.youtube.com/embed/f7IQf6kqxMk?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>';
+							break;
+	case "kumiJo6-10":		$response = '<iframe id="video" src="http://www.youtube.com/embed/pJolX8mVyEk?autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>';
+							break;
 }
-
 //output the response
 echo $response;
 
