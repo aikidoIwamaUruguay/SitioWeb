@@ -30,23 +30,23 @@
 
 <div class="inicio">
 	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/2014-07-10-keiko.jpg" /></a>
+		<a href="index.php?pag=info"><img src="img/inicio/koshukaiInternacional.jpg" style="width: 650px" /></a>
 	</div>
 </div>
 <div class="inicio">
 	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/koshukaiInternacional.jpg" style="width: 650px" /></a>
+		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento.png"/></a>
+	</div>
+</div>
+<div class="inicio">
+	<div class="foto">
+		<a href="index.php?pag=info"><img src="img/inicio/2014-07-10-keiko.jpg" /></a>
 	</div>
 </div>
 
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/aniversario.jpg" style="width: 300px" /></a>
-	</div>
-</div>
-<div class="inicio">
-	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento.png"/></a>
 	</div>
 </div>
 <div class="inicio">
