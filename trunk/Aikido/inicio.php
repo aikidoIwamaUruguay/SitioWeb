@@ -27,15 +27,17 @@
 <!-- 	</div> -->
 <!-- </div> -->
 
-
+<div class="inicio">
+	<p class="cartel">En setiembre comienzan las clases en horario matutino en club Vramian,<br>los esperamos.</p>
+</div>
 <div class="inicio">
 	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/koshukaiInternacional.jpg" style="width: 650px" /></a>
+		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
 	</div>
 </div>
 <div class="inicio">
 	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento.png"/></a>
+		<a href="index.php?pag=info"><img src="img/inicio/koshukaiInternacional.jpg" style="width: 650px" /></a>
 	</div>
 </div>
 <div class="inicio">

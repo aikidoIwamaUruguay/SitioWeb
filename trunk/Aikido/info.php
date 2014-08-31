@@ -96,16 +96,16 @@
 			<th>Sab</th>
 			<th>Dom</th>
 		</tr>
-<!-- 		<tr> -->
-<!-- 			<td>De ma&ntilde;ana</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 			<td>&nbsp;</td> -->
-<!-- 		</tr> -->
+		<tr>
+			<td>De ma&ntilde;ana</td>
+			<td>&nbsp;&nbsp;8:30 - 10:00</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;&nbsp;8:30 - 10:00</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
 		<tr>
 			<td>De tarde</td>
 			<td>20:00 - 21:30</td>
