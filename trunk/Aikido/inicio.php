@@ -27,9 +27,9 @@
 <!-- 	</div> -->
 <!-- </div> -->
 
-<div class="inicio">
-	<p class="cartel">En setiembre comienzan las clases en horario matutino en el club <strong style="color:white;">Vramian</strong>,<br>los esperamos.</p>
-</div>
+<!-- <div class="inicio"> -->
+<!--	<p class="cartel">En setiembre comienzan las clases en horario matutino en el club <strong style="color:white;">Vramian</strong>,<br>los esperamos.</p> -->
+<!-- </div> -->
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
