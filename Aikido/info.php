@@ -116,16 +116,16 @@
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
-		<tr>
-			<td>Ni&ntilde;os de 6 a 17 a&ntilde;os</td>
-			<td>20:00 - 21:30</td>
-			<td>&nbsp;</td>
-			<td>20:00 - 21:30</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
+<!-- 		<tr> -->
+<!-- 			<td>Ni&ntilde;os de 6 a 17 a&ntilde;os</td> -->
+<!-- 			<td>20:00 - 21:30</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>20:00 - 21:30</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 			<td>&nbsp;</td> -->
+<!-- 		</tr> -->
 	</table>
 	
 	<div class="mapa">					
