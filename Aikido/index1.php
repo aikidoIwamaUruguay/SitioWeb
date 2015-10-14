@@ -4,7 +4,7 @@
 </head>
 <body bgcolor="#008800">
 
-Texto html <br>
+Texto html de prueba<br>
 
 <br>
 
