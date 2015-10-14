@@ -37,6 +37,11 @@
 </div>
 <div class="inicio">
 	<div class="foto">
+		<a href="index.php?pag=info"><img src="img/inicio/seminario2015Horarios.jpg"/></a>
+	</div>
+</div>
+<div class="inicio">
+	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
 	</div>
 </div>
