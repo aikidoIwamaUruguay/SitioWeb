@@ -16,11 +16,7 @@
 <!-- 	</div> -->
 <!-- </div> -->
 
-<!-- <div class="inicio"> -->
-<!-- 	<div class="foto"> -->
-<!-- 		<img src="img/inicio/brindis690-2014.jpg"/> -->
-<!-- 	</div> -->
-<!-- </div> -->
+
 <!-- <div class="inicio"> -->
 <!-- 	<div class="foto"> -->
 <!-- 		<img src="img/inicio/keikoVramian.jpg"/> -->
@@ -30,16 +26,23 @@
 <!-- <div class="inicio"> -->
 <!--	<p class="cartel">En setiembre comienzan las clases en horario matutino en el club <strong style="color:white;">Vramian</strong>,<br>los esperamos.</p> -->
 <!-- </div> -->
+
+
+<div class="inicio">
+	<div class="foto">
+		<img src="img/inicio/brindis690-2015.jpg"/>
+	</div>
+</div>
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/seminario2015.jpg"/></a>
 	</div>
 </div>
-<div class="inicio">
-	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/seminario2015Horarios.jpg"/></a>
-	</div>
-</div>
+<!-- <div class="inicio"> -->
+<!-- 	<div class="foto"> -->
+<!-- 		<a href="index.php?pag=info"><img src="img/inicio/seminario2015Horarios.jpg"/></a> -->
+<!-- 	</div> -->
+<!-- </div> -->
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
