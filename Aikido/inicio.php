@@ -35,6 +35,11 @@
 </div>
 <div class="inicio">
 	<div class="foto">
+		<img src="img/inicio/mitsuyoshiBrasil2016.jpg"/>
+	</div>
+</div>
+<div class="inicio">
+	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/seminario2015.jpg"/></a>
 	</div>
 </div>
