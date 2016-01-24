@@ -28,11 +28,11 @@
 <!-- </div> -->
 
 
-<div class="inicio">
-	<div class="foto">
-		<img src="img/inicio/brindis690-2015_1.jpg"/>
-	</div>
-</div>
+<!-- <div class="inicio"> -->
+<!-- 	<div class="foto"> -->
+<!-- 		<img src="img/inicio/brindis690-2015_1.jpg"/> -->
+<!-- 	</div> -->
+<!-- </div> -->
 <div class="inicio">
 	<div class="foto">
 		<img src="img/inicio/mitsuyoshiBrasil2016.jpg"/>
