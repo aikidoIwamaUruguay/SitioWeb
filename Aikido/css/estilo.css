@@ -330,9 +330,10 @@ ul.miNav li.selOn a{
 
 .info table{
 	margin: 20px 0 0 0;
-	border: 1px solid #cccccc;
+	//border: 1px solid #cccccc;
 	background: #cccccc;
-	border-collapse:separate;
+	//border-collapse:separate;
+	border-collapse: collapse;
 	border-spacing: 1px;	
 }
 
@@ -346,11 +347,13 @@ ul.miNav li.selOn a{
 	font-weight: bold;
 	font-size: 12px;
 	//width: 100px;
+	border: 1px solid #cccccc;
 }
 
 .info table tr td{
 	padding: 2px;
 	font-size: 12px;
+	border: 1px solid #cccccc;
 }
 
 .info .mapa {
@@ -481,27 +484,19 @@ ul.miNav li.selOn a{
 }
 
 
-.info table{
+.infoContacto table{
 	margin: 20px 0 0 0;
-	border: 1px solid #cccccc;
+	//border: 1px solid #cccccc;
 	background: #cccccc;
 	border-collapse:separate;
 	border-spacing: 1px;	
 }
 
-.info table tr{
+.infoContacto table tr{
 	background: #ffffff;
 }
 
-.info table tr th{
-	text-align: center;
-	color: #000;
-	font-weight: bold;
-	font-size: 12px;
-	//width: 100px;
-}
-
-.info table tr td{
+.infoContacto table tr td{
 	padding: 2px;
 	font-size: 12px;
 }

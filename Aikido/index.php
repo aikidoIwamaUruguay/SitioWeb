@@ -9,7 +9,7 @@ include("contador.php");
 		
 		<title>Shin-shin aikishurenkai Uruguay</title>
 
-		<link href="css/estilo.css?t=02-12-2013" media="screen" rel="stylesheet" type="text/css" />
+		<link href="css/estilo.css" media="screen" rel="stylesheet" type="text/css" />
 		<link href="css/menuGlosario.css" media="screen" rel="stylesheet" type="text/css" />
 
 		<script type="text/javascript" language="JavaScript" src="js/script.js"></script>

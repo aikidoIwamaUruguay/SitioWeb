@@ -8,6 +8,13 @@
 		<li><a href="#colon"> <strong style="color: #08c;">Col&oacute;n</strong></a></li>
 	</ul>
 	
+</div>
+<div class="info">
+	<h1><a id="indiceM" style="color: #000;">Dojos en Maldonado</a></h1>
+	
+	<ul>
+		<li><a href="#bsas"><strong style="color: #08c;">Balneario Buenos Aires</strong></a></li>
+	</ul>
 	
 </div>
 <div class="info">
@@ -225,6 +232,60 @@
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td>18:00 - 20:00</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	
+<!-- 	<div class="mapa">
+ 		<iframe width="425" height="350" src="https://maps.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e109414e3b41017f5&amp;ie=UTF8&amp;ll=-34.886934,-56.154363&amp;spn=0,0&amp;t=m&amp;output=embed"></iframe>
+ 		<br/>
+		<small>Ver <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=206440040874059425072.0004e109414e3b41017f5&amp;ie=UTF8&amp;ll=-34.886934,-56.154363&amp;spn=0,0&amp;t=m&amp;source=embed" style="color:#0000FF;text-align:left">Aikido Uruguay Dojo</a> en un mapa m&aacute;s grande</small>
+ 	</div> -->
+</div>
+<div class="info">
+	<div class="infoCabezal" style="height: 170px;">
+		<div class="infoDatos">	
+			<h1><a id="bsas" style="color: #000;">IZUMI DOJO</a></h1>
+			<h3>Balneario Buenos Aires</h3>
+			Maldonado, Uruguay<br/>
+		</div>		
+		<div class="infoInstructores">
+			<a href="#indice"><strong class="indice">indice</strong></a>			
+			<br><br><br>
+			<h2>Instructores</h2>
+			Sensei Sergio Bengoa 4 dan
+		</div>
+	</div>
+	
+	<table>
+		<tr>
+			<th>Horarios</th>
+			<th>Lun</th>
+			<th>Mar</th>
+			<th>Mie</th>
+			<th>Jue</th>
+			<th>Vie</th>
+			<th>Sab</th>
+			<th>Dom</th>
+		</tr>
+		<tr>
+			<td>De ma&ntilde;ana</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>9:00</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>De tarde</td>
+			<td>19:00 - 20:30</td>
+			<td>&nbsp;</td>
+			<td>19:00 - 20:30</td>
+			<td>&nbsp;</td>
+			<td>19:00 - 20:30</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 		</tr>
 	</table>
