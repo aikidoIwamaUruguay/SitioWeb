@@ -36,8 +36,12 @@
 
 
 <div class="inicio">
+	<center>
+		<h2>Es necesario el registro previo para el ingreso al seminario</h2>
+		Comunicarse a trav&eacute;s de nuestra p&aacute;gina de contacto.
+	</center>
 	<div class="foto">
-		<img src="img/inicio/seminarioMitsuyoshiSaito.jpg"/>
+		<img src="img/inicio/seminarioMitsuyoshiSaitoHebraica.jpg" style="width: 650px"/>
 	</div>
 </div>
 <div class="inicio">
