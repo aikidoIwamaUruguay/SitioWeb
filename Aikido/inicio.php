@@ -36,10 +36,20 @@
 
 
 <div class="inicio">
-	<center>
-		<h2>Es necesario el registro previo para el ingreso al seminario</h2>
-		Comunicarse a trav&eacute;s de nuestra p&aacute;gina de contacto.
-	</center>
+	<div class="foto">
+		<img src="img/inicio/festejo20anios.jpg" style="width: 650px"/>
+	</div>
+</div>
+<div class="inicio">
+	<div class="foto">
+		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
+	</div>
+</div>
+<div class="inicio">
+<!-- 	<center> -->
+<!-- 		<h2>Es necesario el registro previo para el ingreso al seminario</h2> -->
+<!-- 		Comunicarse a trav&eacute;s de nuestra p&aacute;gina de contacto. -->
+<!-- 	</center> -->
 	<div class="foto">
 		<img src="img/inicio/seminarioMitsuyoshiSaitoHebraica.jpg" style="width: 650px"/>
 	</div>
@@ -59,11 +69,7 @@
 <!-- 		<a href="index.php?pag=info"><img src="img/inicio/seminario2015Horarios.jpg"/></a> -->
 <!-- 	</div> -->
 <!-- </div> -->
-<div class="inicio">
-	<div class="foto">
-		<a href="index.php?pag=info"><img src="img/inicio/entrenamiento2.png"/></a>
-	</div>
-</div>
+
 <div class="inicio">
 	<div class="foto">
 		<a href="index.php?pag=info"><img src="img/inicio/koshukaiInternacional.jpg" style="width: 650px" /></a>
