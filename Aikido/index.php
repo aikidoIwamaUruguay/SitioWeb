@@ -43,21 +43,25 @@ $selOn = "class='selOn'";
 			<div id="contenido">
 				<div id="menu">
 					<div id="faceMenu">
-						<a href="http://www.facebook.com/aikishuren.dojomontevideo" target="_blank"><img src='img/menu/facebook.png' border="0"></a>
+						<a href="http://www.facebook.com/aikishuren.dojomontevideo" target="_blank">
+							<img src="img/menu/facebook.png" border="0" />
+						</a>
 					</div>
+					<div class="inicio">
 					
-					<ul class="miNav">
-						<li <?php echo ($page == "inicio")     ? $selOn : "" ?>><a href="index.php?pag=inicio">Inicio</a></li>
-						<li <?php echo ($page == "osensei")    ? $selOn : "" ?>><a href="index.php?pag=osensei">O Sensei</a></li>
-						<li <?php echo ($page == "morihiro")   ? $selOn : "" ?>><a href="index.php?pag=morihiro">Morihiro Saito</a></li>
-						<li <?php echo ($page == "hitohira")   ? $selOn : "" ?>><a href="index.php?pag=hitohira">Hitohira Saito</a></li>
-						<li <?php echo ($page == "instruct")   ? $selOn : "" ?>><a href="index.php?pag=instruct">Instructores</a></li>
-						<li <?php echo ($page == "filosofia")  ? $selOn : "" ?>><a href="index.php?pag=filosofia">Filosof&iacute;a</a></li>
-						<li <?php echo ($page == "galeria")    ? $selOn : "" ?>><a href="index.php?pag=galeria">Galer&iacute;a</a></li>	 <!-- <span class="news">Novedades</span>  -->
-						<li <?php echo ($page == "info")       ? $selOn : "" ?>><a href="index.php?pag=info">Informaci&oacute;n</a></li>
-						<li <?php echo ($page == "glosario")   ? $selOn : "" ?>><a href="index.php?pag=glosario">Glosario</a></li>
-						<li <?php echo ($page == "contacto")   ? $selOn : "" ?>><a href="index.php?pag=contacto">Contacto</a></li>
-					</ul>
+						<ul class="miNav">
+							<li <?php echo ($page == "inicio")     ? $selOn : "" ?>><a href="index.php?pag=inicio">Inicio</a></li>
+							<li <?php echo ($page == "osensei")    ? $selOn : "" ?>><a href="index.php?pag=osensei">O Sensei</a></li>
+							<li <?php echo ($page == "morihiro")   ? $selOn : "" ?>><a href="index.php?pag=morihiro">Morihiro Saito</a></li>
+							<li <?php echo ($page == "hitohira")   ? $selOn : "" ?>><a href="index.php?pag=hitohira">Hitohira Saito</a></li>
+							<li <?php echo ($page == "instruct")   ? $selOn : "" ?>><a href="index.php?pag=instruct">Instructores</a></li>
+							<li <?php echo ($page == "filosofia")  ? $selOn : "" ?>><a href="index.php?pag=filosofia">Filosof&iacute;a</a></li>
+							<li <?php echo ($page == "galeria")    ? $selOn : "" ?>><a href="index.php?pag=galeria">Galer&iacute;a</a></li>	 <!-- <span class="news">Novedades</span>  -->
+							<li <?php echo ($page == "info")       ? $selOn : "" ?>><a href="index.php?pag=info">Informaci&oacute;n</a></li>
+							<li <?php echo ($page == "glosario")   ? $selOn : "" ?>><a href="index.php?pag=glosario">Glosario</a></li>
+							<li <?php echo ($page == "contacto")   ? $selOn : "" ?>><a href="index.php?pag=contacto">Contacto</a></li>
+						</ul>
+					</div>	
 				</div>
 
 				<div id="datos">
